@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        html{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+            
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: self;
+            margin-top: 10px;
+            background-color: black;
+            border-radius: 5px;
+            padding-bottom: 8px;
+            padding-top: 4px;
+        }
+        ul li{
+            margin-left: 10px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 5px 6px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 12px;
+        }
+        ul li a:hover{
+            color: aqua;
+            font-size: 13px;
+            text-decoration: underline;
+            text-shadow: 0px 1px 2px #47588c;
+        }
+        #apply-now{
+            background-color: red;
+            border-radius: 5px;
+            padding: 5px 8px;
+            margin: 2px;
+        }
+        #apply-now a{
+            color: white;
+            font-size: 12px;
+        }
+        #apply-now a:hover{
+            font-size: 13px;
+            text-decoration: none;
+            text-shadow: 0px 1px 2px #710522;
+        }
+        .active{
+            color: aqua;
+            font-size: 13px;
+            text-decoration: underline;
+            text-shadow: 0px 1px 2px #710522;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#" target="_blank" id="apply-now">Apply Now</a></li>
+        <li><a href="#" target="_blank">Home</a></li>
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#" target="_blank">Services</a></li>
+        <li><a href="#" target="_blank">Contact</a></li>
+        <li><a href="#" target="_blank">Blog</a></li>
+        <li><a href="#" target="_blank">FAQ</a></li>
+
+    </ul>
+</body>
+</html>

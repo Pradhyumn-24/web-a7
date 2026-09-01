@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        *, html{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <form>
+            <div>
+                <label>Your Name : </label>
+                <input type="text" placeholder="Enter your name"/>
+
+                <label>Your Email : </label>
+                <input type="email" placeholder="Enter your email"/>
+
+                <label>Your Phone No. : </label>
+                <input type="tel" placeholder="Enter your phone number"/>
+            </div>
+            <div>
+                <label>Your Gender : </label>
+                <input type="radio" name="Gender" value="Male"/>
+                <label>Male</label>
+                <input type="radio" name="Gender" value="Female"/>
+                <label>Female</label>
+                <input type="radio" name="Gender" value="Other"/>
+                <label>Other</label>
+            </div>
+            <div>
+                <label>Your Address: </label>
+                <textarea name="address" placeholder="Enter your address"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

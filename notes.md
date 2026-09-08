@@ -10,3 +10,6 @@
 
 * Content box : Border + width + padding
 * Border box : Border - width - padding
+
+* `<figure>` can be used to group together img tags
+* `<td colspan = "3">Student</td>` means that Student will span over 3 column cells.

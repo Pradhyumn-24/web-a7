@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form action="login.html" method="POST" enctype="multipart/form-data">
+        <!-- Text & Password Inputs -->
+        <p>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </p>
+
+        <!-- Date of Birth -->
+        <p>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+
+        <!-- Gender via Radio Buttons -->
+        <p>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </p>
+
+        <!-- Subjects via Checkboxes -->
+        <p>
+            <label>Subjects:</label><br>
+            <input type="checkbox" id="math" name="subjects" value="math">
+            <label for="math">Mathematics</label><br>
+            <input type="checkbox" id="science" name="subjects" value="science">
+            <label for="science">Science</label><br>
+            <input type="checkbox" id="history" name="subjects" value="history">
+            <label for="history">History</label>
+        </p>
+
+        <!-- File Upload -->
+        <p>
+            <label for="profile_pic">Upload Profile Picture:</label><br>
+            <input type="file" id="profile_pic" name="profile_pic">
+        </p>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

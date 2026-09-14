@@ -13,3 +13,8 @@
 
 * `<figure>` can be used to group together img tags
 * `<td colspan = "3">Student</td>` means that Student will span over 3 column cells.
+
+* `<article>` is for independent content
+* `<aside>` 
+
+* **class** can only be accessed in css files while **id** can be accessed in both css and html.

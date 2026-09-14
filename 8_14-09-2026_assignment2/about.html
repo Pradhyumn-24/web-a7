@@ -2,40 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="icon" type="image/jpg" href="pic.jpg">
 </head>
 <body>
-    <!-- Personal Details Section -->
-    <div id="personal-info">
-        <h2>About Me</h2>
-        <p><strong>Name:</strong> Pradhyumn Yadav</p>
-    </div>
+    <header style="background-color: rgb(0, 255, 191); padding: 1em;" id="Intro">
+        <h1><center>Pradhyumn Yadav</center></h1>
+        <span><center>Web Developer</center></span> 
+    </header>
+    <hr size="5px" color="wheat">
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#edu">Education</a>
+        <a href="#skill">Skills</a>
+        <a href="#goal">Goals</a>
+        <a href="#socials">Socials</a>
+    </nav>
+    <hr>
 
-    <!-- Schooling Section -->
-    <div id="schooling">
-        <h3>Schooling</h3>
-        <p>I completed my high school education at SVPS, specializing in science stream.</p>
-    </div>
+    <section id="about">
+        <h2>About me</h2>
+        <span>I'm learning html, css and js.</span>
+        <img src="pic.jpg" alt="Profile Picture" width="200px" height="200px" style="float: right; margin-left: 20px; border-radius: 10px;">
+    </section>
+    <hr>
 
-    <!-- Subjects Section (List) -->
-    <div id="subjects">
-        <h3>Enrolled Subjects</h3>
-        <ul>
-            <li>Computer Science</li>
-            <li>Physics</li>
-            <li>Chemistry</li>
-            <li>Mathematics</li>
-            <li>English Literature</li>
+    <section id="edu">
+        <h2 title="This is tooltip">Education</h2>
+        <!-- <p title="This is tooltip">I'm currently pursuing BTech here at KIET university.</p> -->
+
+        <table title="Education info" border="2" width="40%">
+            <tr>
+                <th>Degree</th>
+                <th>Branch</th>
+                <th>Specialisation</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech</td>
+                <td>CSE</td>
+                <td>AI</td>
+                <td>KIET University</td>
+                <td>2026</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section id="skill">
+        <h2>My skills</h2>
+        <ul type="square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
         </ul>
-    </div>
+    </section>   
+    <hr>
 
-    <!-- Profile Image Section with Figure/Caption -->
-    <div id="profile-image">
-        <h3>Profile Image</h3>
-        <figure>
-            <img src="pic.jpg" alt="Profile Picture" width="200px" height="200px">
-            <figcaption>That's me!</figcaption>
-        </figure>
-    </div>
+    <section id="goal">
+    <h2>My goals</h2>
+    <span>My goal is to become a crazy web developer.</span>
+    </section>
+    <hr>
+
+    <section id="socials">
+        <h2>My socials</h2>
+        <a href="https://www.linkedin.com/in/pradhyumn-y/">Linkedin</a>
+    </section>
+    <br>
+    <hr size="5px" color="khaki">
 </body>
 </html>

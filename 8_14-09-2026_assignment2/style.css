@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: 1px solid brown;
+}
+
+nav a {
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    color: brown;
+    font-weight: bold;
+    /* border: 2px solid; */
+    padding: 6px;
+    border-radius: 6px;
+    background-color: beige;
+}
+
+nav a:hover {
+    color: crimson;
+    text-decoration: solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    box-sizing: border-box;
+    background-color: bisque;
+    padding: 15px;
+    margin: 15px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 1px solid brown;
+}

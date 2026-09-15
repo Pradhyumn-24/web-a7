@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="pic.jpg">
 </head>
 <body>
-    <header style="background-color: rgb(0, 255, 191); padding: 1em;" id="Intro">
-        <h1><center>Pradhyumn Yadav</center></h1>
-        <span><center>Web Developer</center></span> 
+    <header id="intro">
+        <img src="pic.jpg" alt="Profile Picture" width="100px" height="100px" style="float: right; margin-left: 20px; border-radius: 10px;">
+        <h1>Pradhyumn Yadav</h1>
+        <span>Web Developer</span> 
     </header>
-    <hr size="5px" color="wheat">
+    
+    <hr color="brown">
     
     <nav>
+        <center>
         <a href="#about">About</a>
         <a href="#edu">Education</a>
         <a href="#skill">Skills</a>
         <a href="#goal">Goals</a>
         <a href="#socials">Socials</a>
+        </center>
     </nav>
-    <hr>
 
-    <section id="about">
+    <section id="about" class="section">
         <h2>About me</h2>
         <span>I'm learning html, css and js.</span>
-        <img src="pic.jpg" alt="Profile Picture" width="200px" height="200px" style="float: right; margin-left: 20px; border-radius: 10px;">
+        <!-- <img src="pic.jpg" alt="Profile Picture" width="200px" height="200px" style="float: right; margin-left: 20px; border-radius: 10px;"> -->
     </section>
-    <hr>
+    
 
-    <section id="edu">
+    <section id="edu" class="section">
         <h2 title="This is tooltip">Education</h2>
         <!-- <p title="This is tooltip">I'm currently pursuing BTech here at KIET university.</p> -->
 
@@ -51,9 +55,8 @@
             </tr>
         </table>
     </section>
-    <hr>
 
-    <section id="skill">
+    <section id="skill" class="section">
         <h2>My skills</h2>
         <ul type="square">
             <li>HTML</li>
@@ -61,19 +64,16 @@
             <li>JS</li>
         </ul>
     </section>   
-    <hr>
 
-    <section id="goal">
+    <section id="goal" class="section">
     <h2>My goals</h2>
     <span>My goal is to become a successful software developer.</span>
     </section>
-    <hr>
 
-    <section id="socials">
+    <section id="socials" class="section">
         <h2>My socials</h2>
         <a href="https://www.linkedin.com/in/pradhyumn-y/">Linkedin</a>
     </section>
     <br>
-    <hr size="5px" color="khaki">
 </body>
 </html>

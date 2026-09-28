@@ -18,3 +18,4 @@
 * `<aside>` 
 
 * **class** can only be accessed in css files while **id** can be accessed in both css and html.
+* **class** can be applied to many tags while **id** is **unique** for to each tag.

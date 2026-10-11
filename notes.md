@@ -19,3 +19,8 @@
 
 * **class** can only be accessed in css files while **id** can be accessed in both css and html.
 * **class** can be applied to many tags while **id** is **unique** for to each tag.
+
+* Single Colon (unset : ) = Pseudo-Class (States): Used to style an element's temporary state or structural condition.
+    - Examples: :hover, :focus (when clicked into an input), :nth-child(2) (the second item in a list).
+* Double Colon (unset :: ) = Pseudo-Element (Parts): Used to style a specific, virtual piece of an element rather than the whole thing.
+	- Examples: p::first-letter (styles just the very first letter of a paragraph), button::before (inserts virtual content before the button text).

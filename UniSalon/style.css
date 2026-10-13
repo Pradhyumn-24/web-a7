@@ -18,9 +18,9 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     gap: 6px;
-    width: 700px;
+    width: 45%;
     margin: 15px auto 0;
     padding: 6px;
     background-color: #f8e9e5;
@@ -163,3 +163,32 @@ footer {
         margin: 6px;
     }
 } */
+
+/* Style for the success message box */
+.success-message {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8e9e5;
+    color: #743f48;
+    border: 1px solid #ead6d2;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.success-message h3 {
+    margin: 0 0 8px 0;
+}
+
+/* When the checkbox is checked, hide form fields and show success message */
+#submit-toggle:checked ~ input,
+#submit-toggle:checked ~ select,
+#submit-toggle:checked ~ textarea,
+#submit-toggle:checked ~ label:not(.success-message label),
+#submit-toggle:checked ~ button {
+    display: none;
+}
+
+#submit-toggle:checked ~ .success-message {
+    display: block;
+}

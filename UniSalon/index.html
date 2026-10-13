@@ -60,6 +60,8 @@
             <h2>Book a Visit</h2>
             <p>Call us at (555) 123-4567 or send an appointment request below.</p>
             <form>
+                <input type="checkbox" id="submit-toggle" style="display: none;">
+
                 <label for="name">Your name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
@@ -76,7 +78,16 @@
                 <label for="message">Preferred date or message</label>
                 <textarea id="message" name="message" rows="4" placeholder="Tell us what works for you"></textarea>
 
-                <button type="submit">Send Request</button>
+                <!-- <button type="submit">Send Request</button> -->
+
+                <!-- Change button to a label linked to the checkbox -->
+                <label for="submit-toggle" class="button" style="cursor: pointer; text-align: center;">Send Request</label>
+
+                <!-- Success message container -->
+                <div class="success-message">
+                    <h3>Thank you!</h3>
+                    <p>Your request has been sent successfully. We will contact you soon.</p>
+                </div>
             </form>
         </section>
     </main>
